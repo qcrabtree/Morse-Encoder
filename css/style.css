@@ -1,0 +1,20 @@
+.jumbotron {
+    text-align: center;
+    background-color: lightgreen;
+
+}
+
+.card {
+    display: inline-block;
+    border: none;
+}
+
+
+#newText {
+    font-size: 20px;
+}
+
+
+h1 {
+    color: white;
+}
