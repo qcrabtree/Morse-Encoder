@@ -9,6 +9,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+<link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
 <link rel="stylesheet" media="screen" href="./css/style.css">
 <title>Morse Encoder</title>
 </head>
@@ -18,21 +19,48 @@
 </div>
 
 <div class="card-group">
-        <div class="card">
+        <div class="card" id="card1">
           <div class="card-body">
             <h5 class="card-title">Type Text below!</h5>
             <p class="lead">
+              <button class="btn btn-success btn-lg" role="button" onclick="convert()" onclick="onclick()" id="play">Encode</button>
                     <input type="text" id="textToConvert">
-                    <button class="btn btn-success btn-lg" role="button" onclick="convert()">Encode</button>
                 </p>
-                <hr class="my-4">
                 <p id="newText">Morse Code will display here!</p>
+              </form>
           </div>
         </div>
         <div class="card">
-          <img src="./assets/morseImage.png" class="img-fluid" alt="...">
+          <img src="./assets/morseImage.png" class="img-fluid" alt="Morse Decryption">
           </div>
         </div>
+
+        <br>
+        <br>
+
+
+        <div class="card-group">
+          <div class="card" id="card3">
+            <img src="./assets/Morse.jpg" class="img-fluid" id="morse" alt="Sam Morse">
+            <p class="lead">Samuel Morse, who Morse Code is named after, was a co-developer of Morse code and helped to develop the commercial use of telegraphy.</p>
+            </div>
+          <div class="card" id="card4">
+            <div class="card-body">
+              <h5 class="card-title">What is Morse Code?</h5>
+              <p class="lead">
+                  Morse code is a character encoding scheme used in telecommunication that encodes text characters as standardized sequences of two different signal durations called dots and dashes or dits and dahs.
+                  </p>
+                  <br>
+                  <p class="lead">
+                      The International Morse Code encodes the 26 English letters A through Z, some non-English letters, the Arabic numerals and a small set of punctuation and procedural signals (prosigns). There is no distinction between upper and lower case letters. Each Morse code symbol is formed by a sequence of dots and dashes. The dot duration is the basic unit of time measurement in Morse code transmission. The duration of a dash is three times the duration of a dot.
+                  </p>
+                  <br>
+                  <p class="lead">
+                      Morse code can be memorized, and Morse code signalling in a form perceptible to the human senses, such as sound waves or visible light, can be directly interpreted by persons trained in the skill.
+                  </p>
+            </div>
+          </div>
+          </div>
 <script src='./js/morse.js'></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

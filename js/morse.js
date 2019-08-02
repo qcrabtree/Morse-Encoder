@@ -21,3 +21,5 @@ for ( let i = 0; i < textToChange.length; i++) {
 }
 document.getElementById("newText").innerHTML = newText;
 }
+
+

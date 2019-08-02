@@ -1,12 +1,49 @@
+body {
+    background-color: black;
+}
+
+
+
+
 .jumbotron {
     text-align: center;
-    background-color: lightgreen;
+    background-color:black;
 
 }
 
+#card1 {
+    /* display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center; */
+}
+
+
+#card3 {
+    border-style: solid !important;
+    border-width: 5px !important;
+    font-family: 'Grenze', serif;
+}
+
+
+#card4 {
+
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Grenze', serif;
+}
+
+
+
 .card {
     display: inline-block;
-    border: none;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -17,4 +54,18 @@
 
 h1 {
     color: white;
+}
+
+#morse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
